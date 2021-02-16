@@ -1,0 +1,19 @@
+{
+  "name": "technoprom",
+  "version": "1.0.0",
+  "description": "container platforms",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martin937/Technoprom.git"
+  },
+  "author": "Martin937",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martin937/Technoprom/issues"
+  },
+  "homepage": "https://github.com/Martin937/Technoprom#readme"
+}
