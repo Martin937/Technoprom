@@ -1,3 +1,62 @@
 .hamburger {
   display: none;
 }
+.header {
+  &__top {
+    @include flex();
+    height: 4rem;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+      ),
+      url("../../img/Ivanovo_1.jpg") 100% 28% / cover repeat-x;
+  }
+  &__bottom {
+    position: relative;
+    @include flex(center, center);
+    height: 4rem;
+    background: linear-gradient(to top, $gradient 0, $main 23%);
+  }
+  &__title {
+    @include title();
+    line-height: 3.5rem;
+    text-shadow: $text-shadow;
+  }
+}
+.blazon,
+.flag {
+  @include size(6vw, 4rem);
+  img {
+    width: auto;
+    height: 4rem;
+  }
+}
+.user {
+  @include centerY(auto, 20px);
+  @include flex();
+  font-size: 1rem;
+  min-width: 11rem;
+  &__exit {
+    text-decoration: none;
+    color: $text;
+    &:hover {
+      color: #f4f4f4;
+    }
+  }
+}
+
+.search {
+  @include centerY(20px, auto);
+  @include flex();
+  font-size: 1rem;
+  min-width: 15rem;
+  &__link {
+    text-decoration: none;
+    color: $text;
+    &:hover {
+      color: #f4f4f4;
+    }
+  }
+}

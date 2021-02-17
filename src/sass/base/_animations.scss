@@ -1,3 +1,20 @@
+@keyframes floating_left {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+@keyframes floating_left-top {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, -80vh, 0) scale3d(1.5, 1.5, 1.5);
+  }
+}
+
 // @keyframes arrow {
 //   0% {
 //     opacity: 0;

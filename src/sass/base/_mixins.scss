@@ -167,7 +167,7 @@
 }
 
 /* миксин size() определяющий ширину и высоту. Первый аргумент — ширина, второй — высота. Если высота не указана, она возвращается к значению ширины.*/
-// @include size(100%, 1px);
+// @include size(width, height=width);
 @mixin size($width, $height: $width) {
   width: $width;
   height: $height;

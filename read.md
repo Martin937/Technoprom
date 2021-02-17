@@ -17,7 +17,7 @@
 17. Создаём репозиторий на GITHUB и связываем его с проектом
 18.
 19. git remote add origin https://github.com/Martin937/Technoprom.git Прописываем путь к github
-20. git remote set-url origin https://github.com/Martin937/Technoprom.git  Если нужно изменить уже существующий
+20. git remote set-url origin https://github.com/Martin937/Technoprom.git Если нужно изменить уже существующий
 21. git push -u origin master Заливка на github
 22. git pull Обновление всех связей и изменений
 23. git push Заливка на github
@@ -29,6 +29,9 @@
 29. npm --version Проверяем установку npm
 30. npx --version Проверяем установку npx
 31. Сначала устанавливаем всё глобально -g, а затем с --save-dev
+
+npm install --save-dev gulp-cli gulp gulp-autoprefixer gulp-clean-css browser-sync gulp-imagemin gulp-sass gulp-rename gulp-htmlmin
+
 32. (верстка) npm install gulp-cli --save-dev Установите утилиту командной строки gulp
 33. npm init Создание пакета .JSON-файл в каталог проекта
 34. (верстка) npm install gulp --save-dev Установите пакет gulp

@@ -1,0 +1,74 @@
+.main {
+  min-height: calc(100vh - 8rem);
+  padding: 2rem 0;
+}
+
+.container {
+  &_flex {
+    @include flex(space-between, flex-start);
+  }
+}
+.administration {
+  width: calc(40% - 20px);
+  height: calc(100vh - 12rem);
+  padding: 1.5rem;
+  font-size: 0.7rem;
+  background-color: #fff;
+  box-shadow: $box-shadow;
+  &__title {
+    padding-bottom: 19px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+.properties {
+  width: calc(60% - 20px);
+  height: calc(100vh - 12rem);
+  padding: 1.5rem;
+  font-size: 0.7rem;
+  background-color: #fff;
+  box-shadow: $box-shadow;
+  &__buttons {
+    @include flex();
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.table {
+  width: 100%;
+  margin: 0 auto; /* центруем по горизонитали внешними отступами */
+  border: 1px solid #ccc; /* задаем сплошную границу размером 1 пиксель цвета #F50 */
+}
+td,
+th {
+  border: 1px solid #ccc; /* задаем сплошную границу размером 1 пиксель цвета #F50 */
+  padding: 6px; /* устанавливаем внутренние отступы для всех сторон */
+}
+caption {
+  padding-bottom: 19px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.button {
+  display: block;
+  width: 6rem;
+  height: 1.5rem;
+  margin: 0.5rem auto;
+  border: none;
+  border-radius: 3px;
+  background: linear-gradient(to top, $gradient 0%, #8ad2ff 80%);
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    background: linear-gradient(to top, #8ad2ff 0%, $gradient 80%);
+  }
+}
+
+.separator {
+  width: 100%;
+  height: 0.5rem;
+  //   margin-bottom: 1rem;
+  border-bottom: 4px double #ccc;
+}
