@@ -132,7 +132,7 @@ body {
   background-color: #f9f9f9;
 }
 .container {
-  max-width: 88vw;
+  max-width: 90vw;
   margin: 0 auto;
 }
 .hamburger {
@@ -170,7 +170,7 @@ body {
 }
 .blazon,
 .flag {
-  width: 6vw;
+  width: 5vw;
   height: 4rem;
 }
 .blazon img,
